@@ -8,7 +8,7 @@ import close from "../src/Assets/images/icon-close.svg";
 import rules from "../src/Assets/images/image-rules.svg";
 
 function App() {
-  const [modalRules, setModalRules] = useState(false);
+  const [modalRules, setModalRules] = useState(true);
   const [isOptionSelect, setisOptionSelect] = useState(false);
   const [optionUser, setOptionUser] = useState("");
   const [score, setScore] = useState(12);
